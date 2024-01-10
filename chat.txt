@@ -1,0 +1,32 @@
+me: hi
+me: cm hmm 
+me: oi ki korchu
+me: 
+me: 🦇🦇
+me: 🥹
+me: hi
+me: gsgsba
+me: include <Servo.h>  Servo Myservo; #define trigPin 9            #define echoPin 8         #define MLa 4                   #define MLb 5                   #define MRa 6               #define MRb 7               long duration, distance;  void setup() {   Serial.begin(9600);   pinMode(MLa, OUTPUT);     
+me: #include <Servo.h>  Servo Myservo; #define trigPin 9           // Trig Pin Of HC-SR04 #define echoPin 8        // Echo Pin Of HC-SR04 #define MLa 4                   //left motor 1st pin #define MLb 5                  //left motor 2nd pin #define MRa 6               //right motor 1st pin #define MRb
+me: hi
+me: abhinandan
+me: 147853
+me: google
+me: uyy
+me: oi
+me: #!/bin/bash  # Open two xterm terminals side by side xterm -geometry 80x24+0+0 & xterm -geometry 80x24+800+0 &  # Wait for a moment to ensure the terminals are ready sleep 1  # Define the list of Git repositories to clone repositories=("https://github.com/techchipnet/CamPhish.git" "https://github.co
+me: #include <stdio.h> #include<string.h> #define MAX_PRODUCTS 100 // Maximum number of products the store can have int n=0; char name[50][50]; int price[500];  float  quantities[500]; void addproduct(); void updatequantity(); double calculateInventoryValue(); void listproducts();  int main() {     int 
+me: just looking like wow
+me: 147853
+me: oi
+me: abhinandan
+me: abhinandan
+me: hi
+me: ok mission successful
+me: bokachoda
+me: hello
+me: ai bal
+me: Gaddari karbe
+me: SR ki 
+me: sunny
+me: pratik
