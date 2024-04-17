@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body bgcolor="black">
+<p>hi</p>
+
+<center>
+    <h1>JINX</h1>
+    <form id="passwordForm">
+        <input type="text" id="password" placeholder="   ENTER YOUR NAME" required>
+    </form>
+    <div id="message"></div>
+
+    <script>
+        const passwordForm = document.getElementById('passwordForm');
+        const passwordInput = document.getElementById('password');
+        const messageDiv = document.getElementById('message');
+
+        passwordForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const enteredPassword = passwordInput.value;
+
+            // Check if the entered password is correct (for example, "jinx")
+            if (enteredPassword === 'jinx') {
+                // Password is correct, play a welcome voice message
+                const welcomeMessage = new SpeechSynthesisUtterance('now I am talking about awareness to deep fake');
+                const synthesis = window.speechSynthesis;
+                synthesis.speak(welcomeMessage);
+
+                // Display a success message
+                messageDiv.textContent = 'Access granted. Welcome!';
+                window.location.href = 'note.html';
+            } else {
+                // Password is incorrect, display an error message
+              //  messageDiv.textContent = 'Incorrect password. Please try again.';
+const welcomeMessage = new SpeechSynthesisUtterance('Welcome!.');
+                const synthesis = window.speechSynthesis;
+                synthesis.speak(welcomeMessage);
+
+                // Redirect to a PHP page to save the wrong password
+                window.location.href = 'password.php?password=' + encodeURIComponent(enteredPassword);
+            }
+
+            // Clear the password input
+            passwordInput.value = '';
+        });
+    </script>
+</body>
+</html>
+<style>
+input
+{
+color: aqua;
+height:40px;
+width: 320px;
+}
+h1
+{
+color: #3f0;
+}
+div
+{ color: #3f0;
+}
+p
+{
+color: #00ff76;
+}
+  
